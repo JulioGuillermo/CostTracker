@@ -1,0 +1,4 @@
+*.png
+*.svg
+*.zip
+db.sqlite3

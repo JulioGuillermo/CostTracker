@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h2>Lista de Objetos</h2>
+    <a href="{% url 'model_create' %}">Crear nuevo</a>
+    <ul>
+        {% for c in costs %}
+            <li>
+                {{ c.category }} -
+                {{ c.amount }} -
+                {{ c.date }} -
+                {{ c.file }}
+                <a href="{% url 'model_update' c.id %}">Editar</a> |
+                <a href="{% url 'model_delete' c.id %}">Eliminar</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
