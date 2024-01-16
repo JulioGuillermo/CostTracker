@@ -1,0 +1,5 @@
+##[pylyzer] failed /run/media/jg/DATA/MisPro/NewW/CostTrackerProject/CostTracker/serializer.py 1705362215 181
+.___v_desugar_1 = pyimport "rest_framework"
+.serializers: Never
+.___v_desugar_2 = pyimport "models"
+.Cost: Never

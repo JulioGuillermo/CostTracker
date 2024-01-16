@@ -48,6 +48,20 @@ To list the costs use this endpoint `GET /cost/api/costs/`
 curl -u youruser:yourpass -H "Accept: application/json" -X GET http://127.0.0.1:8000/cost/api/costs/
 ```
 
+You can filter the list of cost by:
+
+- category
+- amount
+- date
+
+To apply a filter add to the endpoint's url the filter.
+
+For example to get all the cost with amount equals to 2:
+
+```bash
+curl -u youruser:yourpass -H "Accept: application/json" -X GET http://127.0.0.1:8000/cost/api/costs/?amount=2
+```
+
 ### Get cost details
 
 To get a cost's details use this endpoint `GET /cost/api/costs/<id>/`

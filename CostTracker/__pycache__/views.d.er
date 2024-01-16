@@ -1,0 +1,19 @@
+##[pylyzer] failed /run/media/jg/DATA/MisPro/NewW/CostTrackerProject/CostTracker/views.py 1705363514 1390
+.___v_desugar_1 = pyimport "(...)"
+.CreateView: Never
+.UpdateView: Never
+.DeleteView: Never
+.___v_desugar_2 = pyimport "(...)"
+.ListView: Never
+.___v_desugar_3 = pyimport "django/urls"
+.reverse_lazy: Never
+.___v_desugar_4 = pyimport "rest_framework"
+.generics: Never
+.___v_desugar_5 = pyimport "(...)"
+.IsAuthenticated: Never
+.___v_desugar_6 = pyimport "(...)"
+.BasicAuthentication: Never
+.___v_desugar_7 = pyimport "models"
+.Cost: Never
+.___v_desugar_8 = pyimport "serializer"
+.CostSerializer: Never

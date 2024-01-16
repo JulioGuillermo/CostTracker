@@ -1,0 +1,3 @@
+##[pylyzer] failed /run/media/jg/DATA/MisPro/NewW/CostTrackerProject/CostTracker/models.py 1705358856 186
+.___v_desugar_1 = pyimport "django/db"
+.models: Never

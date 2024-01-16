@@ -1,0 +1,7 @@
+##[pylyzer] failed /run/media/jg/DATA/MisPro/NewW/CostTrackerProject/CostTracker/filter.py 1705367924 178
+.django_filters = pyimport "django_filters"
+
+.___v_desugar_1 = pyimport "models"
+.Cost: Never
+"
+.Cost: Never
